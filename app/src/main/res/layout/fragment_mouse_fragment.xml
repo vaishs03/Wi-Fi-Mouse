@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sid.wi_fi_mouse.mouse_fragment"
+    android:background="@drawable/bg">
+    <!--
+      /*
+     Created by Siddharth Sonawane on 14-April-2021.
+    Siddharth Sonawane
+    K.B.H. Polytechnic Malegaon,
+    Nashik-423 205, India
+    */
+
+    /*Copyright Siddharth Sonawane
+    *Copyright infringement is the use of works protected by copyright law
+    * without permission, infringing certain exclusive rights granted to the copyright holder,
+    * such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works.
+    * It is a punishable offence under Copyright Act, 1957
+    */
+     -->
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Track Pad"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:clickable="true"
+        android:id="@+id/mousePad"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:id="@+id/left_click"
+        android:text="L"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:layout_width="161dp"
+        android:layout_height="60dp"
+        android:id="@+id/right_click"
+        android:text="R"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_above="@+id/left_click"
+        android:alpha=".5" />
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="160dp"
+        android:layout_alignParentBottom="true"
+        android:alpha=".5"
+        android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="160dp"
+            android:layout_marginBottom="0dp"
+            android:alpha=".5"
+            android:background="@color/bg_screen4" />
+    </RelativeLayout>
+
+</FrameLayout>

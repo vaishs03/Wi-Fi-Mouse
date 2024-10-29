@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p_bg"
+    tools:context="com.sid.wi_fi_mouse.media_fragment">
+    <!--
+      /*
+     Created by Siddharth Sonawane on 14-April-2021.
+    Siddharth Sonawane
+    K.B.H. Polytechnic Malegaon,
+    Nashik-423 205, India
+    */
+
+    /*Copyright Siddharth Sonawane
+    *Copyright infringement is the use of works protected by copyright law
+    * without permission, infringing certain exclusive rights granted to the copyright holder,
+    * such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works.
+    * It is a punishable offence under Copyright Act, 1957
+    */
+     -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/play"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/power"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageButton4"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton3" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/previous"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_toStartOf="@+id/imageButton4"
+        android:layout_marginEnd="38dp"
+        android:id="@+id/imageButton5" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/vold"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton5"
+        android:id="@+id/imageButton7" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/fast"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_alignEnd="@+id/imageButton6"
+        android:id="@+id/imageButton10" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/voli"
+        android:id="@+id/imageButton8"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton6" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/pause"
+        android:id="@+id/imageButton3"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/slow"
+        android:id="@+id/imageButton9"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton5" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/next"
+        android:layout_marginStart="40dp"
+        android:id="@+id/imageButton6"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_toEndOf="@+id/imageButton4" />
+
+        <TextView
+            android:text="Media Controls"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"
+            android:id="@+id/textView2"
+            android:layout_above="@+id/imageButton7"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</FrameLayout>
